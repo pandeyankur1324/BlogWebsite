@@ -2,9 +2,11 @@ import express from "express";
 import connectDB from "../Backend/Db/index.js";
 import User from "./Models/user.js";
 import jwt from "jsonwebtoken";
+import env from "dotenv";
 import cors from "cors";
-
 const app = express();
+
+env.config();
 
 app.use(
   cors({
