@@ -31,6 +31,11 @@ body {
   list-style: none;
 }
 
-.Navbar li {
+.Navbar > li {
   padding: 0 1rem;
+}
+
+.navlink {
+  color: white;
+  text-decoration: none;
 }

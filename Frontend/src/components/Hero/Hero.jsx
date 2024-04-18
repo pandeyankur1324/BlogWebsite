@@ -1,10 +1,8 @@
-import Header from "../Header/Header";
 import "./Hero.css";
 
 const Hero = () => {
   return (
     <>
-      <Header />
       <div className="Main-Container">
         <div className="Main-Heading">Blog with the Best</div>
         <p id="hero-para">

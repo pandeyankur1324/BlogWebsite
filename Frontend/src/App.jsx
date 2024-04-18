@@ -1,11 +1,13 @@
 import "./App.css";
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
+// import SignupForm from "./components/Forms/SignupForm.jsx";
+import { Outlet } from "react-router-dom";
+import Header from "./components/Header/Header.jsx";
 
 function App() {
   return (
     <>
-      <Hero />
+      <Header />
+      <Outlet />
     </>
   );
 }
